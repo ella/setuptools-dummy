@@ -27,9 +27,9 @@ setup(
     author = 'centrum holdings s.r.o',
     author_email='devel@centrumholdings.com',
     license = 'BSD',
-    url='http://git.netcentrum.cz/projects/django/GIT/setuptools_dummy.git/',
+    url = 'http://github.com/ella/setuptools-dummy/tree/master',
 
-    py_modules=["setuptools_dummy"],
+    py_modules = ["setuptools_dummy"],
 
     classifiers = [
         "Topic :: Software Development :: Version Control",

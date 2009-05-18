@@ -31,8 +31,6 @@ setup(
 
     py_modules=["setuptools_dummy"],
 
-    include_package_data = True,
-
     classifiers = [
         "Topic :: Software Development :: Version Control",
         "Development Status :: 4 - Beta",

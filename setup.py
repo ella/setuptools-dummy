@@ -16,7 +16,7 @@ except ImportError:
 
 setup(
     name = 'setuptools_dummy',
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'Setuptools Dummy Filefinder',
     long_description = '\n'.join((
         'Setuptools Dummy Filefinder',

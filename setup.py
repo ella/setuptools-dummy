@@ -16,7 +16,7 @@ except ImportError:
 
 setup(
     name = 'setuptools_dummy',
-    version = '0.0.3',
+    version = '0.0.4',
     description = 'Setuptools Dummy Filefinder',
     long_description = '\n'.join((
         'Setuptools Dummy Filefinder',
@@ -41,8 +41,4 @@ setup(
     entry_points = {
         'setuptools.file_finders': ['dummy = setuptools_dummy:dummylsfiles'],
     },
-    install_requires = [
-        'setuptools>=0.6b1',
-    ],
 )
-

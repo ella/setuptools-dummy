@@ -14,9 +14,14 @@ except ImportError:
     from setuptools import setup, find_packages
 
 
+VERSION = (0, 1, 0, 0)
+__version__ = VERSION
+__versionstr__ = '.'.join(map(str, VERSION))
+
+
 setup(
     name = 'setuptools_dummy',
-    version = '0.0.4',
+    version = __versionstr__,
     description = 'Setuptools Dummy Filefinder',
     long_description = '\n'.join((
         'Setuptools Dummy Filefinder',

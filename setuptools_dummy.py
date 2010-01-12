@@ -10,6 +10,12 @@ import re
 import os
 from os.path import join
 
+
+VERSION = (0, 1, 0, 0)
+__version__ = VERSION
+__versionstr__ = '.'.join(map(str, VERSION))
+
+
 # do not include /build/ dir, /.*, *.egg-info dir and py[co] files
 EXCLUDE = re.compile(r'(^build|^\.[^/]+|[^/]+\.egg-info|.*.py[co]$)')
 

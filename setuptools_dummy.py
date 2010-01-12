@@ -25,7 +25,7 @@ def walk(top):
         for name in names:
             _name = join(dir, name)
             _top = join(top, name)
-            if os.path.isdir(_top):
+            if os.path.isdir(_top) and not os.path.islink(_top):
                 _walk(_top, _name)
             else:
                 files.append(_name)

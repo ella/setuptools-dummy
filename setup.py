@@ -35,6 +35,7 @@ setup(
     url = 'http://github.com/ella/setuptools-dummy/tree/master',
 
     py_modules = ["setuptools_dummy"],
+    include_package_data = False,
 
     classifiers = [
         "Topic :: Software Development :: Version Control",
